@@ -33,7 +33,7 @@ DESTDIR="`(cd $2 ; pwd ; )`"
 OLDIFS="$IFS"
 IFS=$(echo -en "\n\b")
 for dir in `find $SRCDIR -type d` ; do
-    for file in `find $dir -maxdepth 1 -type f` ; do
+    for file in `find $dir -maxdepth 1 -type f -name '*[^~]'` ; do
 	case "`file $file`" in
 	    *ASCII*)
 		filepath=`dirname $file | sed s@$SRCDIR@@`
