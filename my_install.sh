@@ -17,3 +17,9 @@ sudo apt-get install graphviz
 
 ### hping分析封包的CLI工具
 sudo apt-get install hping
+
+### VirtualBox虚拟机软件
+sudo apt-get install virtualbox
+
+### 解决PDF无法显示中文问题
+sudo apt-get install poppler-data
