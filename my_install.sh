@@ -23,3 +23,6 @@ sudo apt-get install virtualbox
 
 ### 解决PDF无法显示中文问题
 sudo apt-get install poppler-data
+
+### gnome-terminal,xfce-terminal有bug，不能用鼠标滚动
+sudo apt-get install gnome-terminal
